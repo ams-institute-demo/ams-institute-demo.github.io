@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-amsterdam-centraal---image-segmentation",
-      "name": "Amsterdam Centraal - Image segmentation",
+      "id": "0-hoe-ziet-beeldherkenning-de-stad",
+      "name": "Hoe ziet beeldherkenning de stad?",
       "levels": [
         {
           "tileSize": 256,
@@ -16,16 +16,42 @@ var APP_DATA = {
       ],
       "faceSize": 400,
       "initialViewParameters": {
-        "yaw": 0.5614515682106678,
-        "pitch": -0.24225869773542996,
-        "fov": 1.4743580089315886
+        "yaw": -1.6249071019015187,
+        "pitch": -0.024077831680134665,
+        "fov": 1.576486993825587
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": -0.3864413513951579,
+          "pitch": -0.04290142186290602,
+          "rotation": 0,
+          "target": "2-hoe-zit-dat-met-privacy"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -2.556048696990821,
+          "pitch": -0.21945717074634707,
+          "title": "Machine learning",
+          "text": "Een ‘machine learning model’ is getraind om verschillende objecten in dit beeld te herkennen. Een opname is daardoor niet alleen maar een opname, maar wordt een complete dataset: het aantal auto’s, bomen, mensen, de afstand tussen die mensen... Wel allemaal privacy-vriendelijk: er wordt geen persoonlijke data opgeslagen. Beweeg je telefoon en bekijk de verschillende street views en ontdek wat er te herkennen valt!"
+        },
+        {
+          "yaw": 1.715248724507858,
+          "pitch": -0.12195318131387367,
+          "title": "Niet perfect",
+          "text": "Algoritmes werken niet altijd perfect... Hier wordt een reclame bord gezien als gebouw. Het percentage geeft weer hoe zeker het algoritme van zijn zaak is."
+        },
+        {
+          "yaw": -1.532099507815765,
+          "pitch": -0.13674340375303906,
+          "title": "Niet perfect",
+          "text": "Algoritmes werken niet altijd perfect... Hier wordt een tram als een bus gezien. Het percentage geeft weer hoe zeker het algoritme van zijn zaak is."
+        }
+      ]
     },
     {
-      "id": "1-amsterdam-centraal",
-      "name": "Amsterdam Centraal",
+      "id": "1-is-de-stad-nog-schoon",
+      "name": "Is de stad nog schoon?",
       "levels": [
         {
           "tileSize": 256,
@@ -43,39 +69,23 @@ var APP_DATA = {
       ],
       "faceSize": 1000,
       "initialViewParameters": {
-        "yaw": 0.5686395304884737,
-        "pitch": -0.2513969425485776,
-        "fov": 1.4743580089315886
+        "yaw": 2.007961295907136,
+        "pitch": 0.11034015777869755,
+        "fov": 1.576486993825587
       },
       "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-vondelpark---image-segmentation",
-      "name": "Vondelpark - Image segmentation",
-      "levels": [
+      "infoHotspots": [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
+          "yaw": 2.1650625235434013,
+          "pitch": -0.050666956904777294,
+          "title": "Is de prullenbak nog schoon?",
+          "text": "De gemeente Amsterdam werkt aan een herkenning van zaken als containers, hierdoor kan inzichtelijk gemaakt worden wat de staat hiervan is, en of deze bijvoorbeeld vol is.<div><br></div><div>Kijk voor meer informatie op www.odk.ai</div>"
         }
-      ],
-      "faceSize": 400,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
+      ]
     },
     {
-      "id": "3-vondelpark",
-      "name": "Vondelpark",
+      "id": "2-hoe-zit-dat-met-privacy",
+      "name": "Hoe zit dat met privacy?",
       "levels": [
         {
           "tileSize": 256,
@@ -93,39 +103,29 @@ var APP_DATA = {
       ],
       "faceSize": 1000,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -2.5915928606587855,
+        "pitch": 0.16419335998721074,
+        "fov": 1.576486993825587
       },
       "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "4-redlight-district---image-segmentation",
-      "name": "Redlight district - Image segmentation",
-      "levels": [
+      "infoHotspots": [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          "yaw": 1.1458748507198155,
+          "pitch": 0.1651547863674825,
+          "title": "Privacy",
+          "text": "Om privacy te waarborgen worden met beeldherkenning automatisch gezichten herkent en verwijderd.<div><br></div><div>Deze worden bijvoorbeeld zwart gemaakt.</div>"
         },
         {
-          "tileSize": 512,
-          "size": 512
+          "yaw": -2.2485372114046847,
+          "pitch": -0.010756313866060907,
+          "title": "Privacy",
+          "text": "Om privacy te waarborgen worden met beeldherkenning automatisch gezichten herkent en verwijderd.<div><br></div><div>Deze worden bijvoorbeeld geblurred.</div>"
         }
-      ],
-      "faceSize": 400,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
+      ]
     },
     {
-      "id": "5-redlight-district",
-      "name": "Redlight district",
+      "id": "3-ligt-er-afval-in-de-stad",
+      "name": "Ligt er afval in de stad?",
       "levels": [
         {
           "tileSize": 256,
@@ -143,19 +143,26 @@ var APP_DATA = {
       ],
       "faceSize": 1000,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 1.4465483490672124,
+        "pitch": 0.33845349213115483,
+        "fov": 1.576486993825587
       },
       "linkHotspots": [],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 1.3061861627201203,
+          "pitch": -0.022282893400184633,
+          "title": "Afval herkenning",
+          "text": "De gemeente Amsterdam werkt aan een herkenning van afval, hierdoor kan inzichtelijk gemaakt worden waar verschillende types afval liggen.<div><br></div><div>Kijk voor meer informatie op www.odk.ai</div>"
+        }
+      ]
     }
   ],
   "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
-    "fullscreenButton": false,
+    "fullscreenButton": true,
     "viewControlButtons": false
   }
 };
