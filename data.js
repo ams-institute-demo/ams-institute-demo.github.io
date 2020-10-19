@@ -38,14 +38,14 @@ var APP_DATA = {
         {
           "yaw": 1.715248724507858,
           "pitch": -0.12195318131387367,
-          "title": "Niet perfect",
+          "title": "Niet altijd perfect",
           "text": "Algoritmes werken niet altijd perfect... Hier wordt een reclame bord gezien als gebouw. Het percentage geeft weer hoe zeker het algoritme van zijn zaak is."
         },
         {
           "yaw": -1.532099507815765,
           "pitch": -0.13674340375303906,
-          "title": "Niet perfect",
-          "text": "Algoritmes werken niet altijd perfect... Hier wordt een tram als een bus gezien. Het percentage geeft weer hoe zeker het algoritme van zijn zaak is."
+          "title": "Machine learning",
+          "text": "Voor het maken van deze beelden is gebruik gemaakt vam machine learning, op basis van voorbeelden leren. Deze algoritmes werken niet altijd perfect... Hier wordt een tram als een bus gezien. Het percentage geeft weer hoe zeker het algoritme van zijn zaak is."
         }
       ]
     },
@@ -113,13 +113,13 @@ var APP_DATA = {
           "yaw": 1.1458748507198155,
           "pitch": 0.1651547863674825,
           "title": "Privacy",
-          "text": "Om privacy te waarborgen worden met beeldherkenning automatisch gezichten herkent en verwijderd.<div><br></div><div>Deze worden bijvoorbeeld zwart gemaakt.</div>"
+          "text": "Om privacy te waarborgen worden met beeldherkenning automatisch gezichten herkend en verwijderd.<div><br></div><div>Deze worden bijvoorbeeld zwart gemaakt.</div>"
         },
         {
           "yaw": -2.2485372114046847,
           "pitch": -0.010756313866060907,
           "title": "Privacy",
-          "text": "Om privacy te waarborgen worden met beeldherkenning automatisch gezichten herkent en verwijderd.<div><br></div><div>Deze worden bijvoorbeeld geblurred.</div>"
+          "text": "Om privacy te waarborgen worden met beeldherkenning automatisch gezichten herkend en verwijderd.<div><br></div><div>Deze worden bijvoorbeeld geblurred.</div>"
         }
       ]
     },
