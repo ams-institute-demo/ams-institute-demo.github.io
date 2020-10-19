@@ -153,7 +153,7 @@ var APP_DATA = {
           "yaw": 1.3061861627201203,
           "pitch": -0.022282893400184633,
           "title": "Afval herkenning",
-          "text": "De gemeente Amsterdam werkt aan een herkenning van afval, hierdoor kan inzichtelijk gemaakt worden waar verschillende types afval liggen.<div><br></div><div>Kijk voor meer informatie op www.odk.ai</div>"
+          "text": "De gemeente Amsterdam werkt aan een herkenning van afval, hierdoor kan inzichtelijk gemaakt worden waar verschillende types afval liggen.<div><br></div><div>Kijk voor meer informatie op <a href='www.odk.ai'>www.odk.ai</a> of bekijk deze video: <a href='https://www.youtube.com/watch?v=GSygoWOtwjU'>https://www.youtube.com/watch?v=GSygoWOtwjU</a></div>"
         }
       ]
     }
