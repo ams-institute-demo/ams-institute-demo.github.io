@@ -391,14 +391,13 @@
     return null;
   }
 
-  // Display the initial scene.
-  switchScene(scenes[0]);
+  
 
     // Set up control for enabling/disabling device orientation.
 
   var enabled = true
 
-  var toggleElement = document.getElementById('toggleDeviceOrientation');
+  
 
   function requestPermissionForIOS() {
     window.DeviceOrientationEvent.requestPermission()
@@ -419,7 +418,6 @@
     });
     controls.enableMethod('deviceOrientation');
     enabled = true;
-    toggleElement.className = 'enabled';
   }
 
   function enable() {
@@ -435,7 +433,6 @@
   function disable() {
     controls.disableMethod('deviceOrientation');
     enabled = false;
-    toggleElement.className = '';
   }
 
   function toggle() {
@@ -446,6 +443,9 @@
     }
   }
 
-  toggleElement.addEventListener('click', toggle);
+  enable()
+
+  // Display the initial scene.
+  switchScene(scenes[0]);
 
 })();
